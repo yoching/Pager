@@ -114,16 +114,16 @@
 				E31174941FC9C451005D87B6 /* AppDelegate.swift */,
 				E31174961FC9C451005D87B6 /* ViewController.swift */,
 				E31174981FC9C451005D87B6 /* Main.storyboard */,
-				E311749B1FC9C451005D87B6 /* Assets.xcassets */,
-				E311749D1FC9C451005D87B6 /* LaunchScreen.storyboard */,
-				E31174A01FC9C451005D87B6 /* Info.plist */,
 				E3A25BC41FCABB36008E5150 /* PagerDataSource.swift */,
 				E3A25BCC1FCABC69008E5150 /* PagerContentViewControllers.swift */,
 				E3A25BD21FCAC0F1008E5150 /* PagerViewController.storyboard */,
 				E3A25BC61FCABB6E008E5150 /* PagerViewController.swift */,
-				E3A25BC81FCABBD3008E5150 /* UpperTabItem.swift */,
 				E3A25BCE1FCABF78008E5150 /* UpperTabItem.xib */,
+				E3A25BC81FCABBD3008E5150 /* UpperTabItem.swift */,
 				E3A25BD01FCAC00F008E5150 /* UIView+FillConstraints.swift */,
+				E311749B1FC9C451005D87B6 /* Assets.xcassets */,
+				E311749D1FC9C451005D87B6 /* LaunchScreen.storyboard */,
+				E31174A01FC9C451005D87B6 /* Info.plist */,
 			);
 			path = Pager;
 			sourceTree = "<group>";
