@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yqE-f8-FBu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pager View Controller-->
+        <scene sceneID="96p-8l-QVU">
+            <objects>
+                <viewController id="yqE-f8-FBu" customClass="PagerViewController" customModule="Pager" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Mx-E1-9FE"/>
+                        <viewControllerLayoutGuide type="bottom" id="0M6-FM-z3B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="36F-S6-eIR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kVk-vM-B4E">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="o1D-Jq-tYg">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TjR-Sg-IcU">
+                                        <rect key="frame" x="0.0" y="39" width="375" height="5"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="5" id="yTF-JJ-NYy"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="o1D-Jq-tYg" firstAttribute="top" secondItem="kVk-vM-B4E" secondAttribute="top" id="1iY-dv-pGQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="TjR-Sg-IcU" secondAttribute="trailing" id="9Iy-J5-mWa"/>
+                                    <constraint firstItem="TjR-Sg-IcU" firstAttribute="leading" secondItem="kVk-vM-B4E" secondAttribute="leading" id="NGb-CT-g74"/>
+                                    <constraint firstItem="o1D-Jq-tYg" firstAttribute="leading" secondItem="kVk-vM-B4E" secondAttribute="leading" id="PUj-NA-Jca"/>
+                                    <constraint firstAttribute="bottom" secondItem="o1D-Jq-tYg" secondAttribute="bottom" id="UE5-t3-aL7"/>
+                                    <constraint firstAttribute="trailing" secondItem="o1D-Jq-tYg" secondAttribute="trailing" id="XeW-9W-Wly"/>
+                                    <constraint firstAttribute="height" constant="44" id="gLc-ON-vTN"/>
+                                    <constraint firstAttribute="bottom" secondItem="TjR-Sg-IcU" secondAttribute="bottom" id="sK4-kO-GMg"/>
+                                </constraints>
+                            </view>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r35-2a-Z1v">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kVk-vM-B4E" firstAttribute="leading" secondItem="KbJ-da-J2O" secondAttribute="leading" id="3o2-pj-m6F"/>
+                            <constraint firstItem="r35-2a-Z1v" firstAttribute="leading" secondItem="KbJ-da-J2O" secondAttribute="leading" id="A2x-c0-zYW"/>
+                            <constraint firstItem="KbJ-da-J2O" firstAttribute="trailing" secondItem="kVk-vM-B4E" secondAttribute="trailing" id="CyV-Hv-UEp"/>
+                            <constraint firstItem="KbJ-da-J2O" firstAttribute="bottom" secondItem="r35-2a-Z1v" secondAttribute="bottom" id="cj2-NI-rml"/>
+                            <constraint firstItem="kVk-vM-B4E" firstAttribute="top" secondItem="KbJ-da-J2O" secondAttribute="top" id="e5r-hE-FQW"/>
+                            <constraint firstItem="r35-2a-Z1v" firstAttribute="top" secondItem="kVk-vM-B4E" secondAttribute="bottom" id="jng-Vy-yC0"/>
+                            <constraint firstItem="KbJ-da-J2O" firstAttribute="trailing" secondItem="r35-2a-Z1v" secondAttribute="trailing" id="rI0-T4-3CD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KbJ-da-J2O"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="pageViewControllerContainerView" destination="r35-2a-Z1v" id="uJY-xi-PHp"/>
+                        <outlet property="upperTabIndicatorBarContainerView" destination="TjR-Sg-IcU" id="3nB-He-gE3"/>
+                        <outlet property="upperTabsView" destination="o1D-Jq-tYg" id="JMo-1z-F2i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gk8-Jh-mBo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="159" y="225"/>
+        </scene>
+    </scenes>
+</document>
