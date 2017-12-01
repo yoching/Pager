@@ -14,6 +14,7 @@
 		E311749F1FC9C451005D87B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E311749D1FC9C451005D87B6 /* LaunchScreen.storyboard */; };
 		E31174AA1FC9C451005D87B6 /* PagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31174A91FC9C451005D87B6 /* PagerTests.swift */; };
 		E31174B51FC9C451005D87B6 /* PagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31174B41FC9C451005D87B6 /* PagerUITests.swift */; };
+		E372938A1FD1462900B08695 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37293891FD1462900B08695 /* UIColor+Hex.swift */; };
 		E3A25BC51FCABB36008E5150 /* PagerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A25BC41FCABB36008E5150 /* PagerDataSource.swift */; };
 		E3A25BC71FCABB6E008E5150 /* PagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A25BC61FCABB6E008E5150 /* PagerViewController.swift */; };
 		E3A25BC91FCABBD3008E5150 /* UpperTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A25BC81FCABBD3008E5150 /* UpperTabItem.swift */; };
@@ -54,6 +55,7 @@
 		E31174B01FC9C451005D87B6 /* PagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31174B41FC9C451005D87B6 /* PagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerUITests.swift; sourceTree = "<group>"; };
 		E31174B61FC9C451005D87B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37293891FD1462900B08695 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		E3A25BC41FCABB36008E5150 /* PagerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerDataSource.swift; sourceTree = "<group>"; };
 		E3A25BC61FCABB6E008E5150 /* PagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerViewController.swift; sourceTree = "<group>"; };
 		E3A25BC81FCABBD3008E5150 /* UpperTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperTabItem.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				E3A25BCE1FCABF78008E5150 /* UpperTabItem.xib */,
 				E3A25BC81FCABBD3008E5150 /* UpperTabItem.swift */,
 				E3A25BD01FCAC00F008E5150 /* UIView+FillConstraints.swift */,
+				E37293891FD1462900B08695 /* UIColor+Hex.swift */,
 				E311749B1FC9C451005D87B6 /* Assets.xcassets */,
 				E311749D1FC9C451005D87B6 /* LaunchScreen.storyboard */,
 				E31174A01FC9C451005D87B6 /* Info.plist */,
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31174971FC9C451005D87B6 /* ViewController.swift in Sources */,
+				E372938A1FD1462900B08695 /* UIColor+Hex.swift in Sources */,
 				E3A25BC51FCABB36008E5150 /* PagerDataSource.swift in Sources */,
 				E3A25BC91FCABBD3008E5150 /* UpperTabItem.swift in Sources */,
 				E3A25BC71FCABB6E008E5150 /* PagerViewController.swift in Sources */,

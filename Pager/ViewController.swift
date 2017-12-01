@@ -25,13 +25,13 @@ class ViewController: UIViewController {
 
         let vc1 = UIViewController()
         vc1.title = "vc1"
-        vc1.view.backgroundColor = .red
+        vc1.view.backgroundColor = UIColor(rgb: 0x7FDBFF)
         let vc2 = UIViewController()
         vc2.title = "vc2"
-        vc2.view.backgroundColor = .blue
+        vc2.view.backgroundColor = UIColor(rgb: 0xFF851B)
         let vc3 = UIViewController()
         vc3.title = "vc3"
-        vc3.view.backgroundColor = .green
+        vc3.view.backgroundColor = UIColor(rgb: 0xB10DC9)
 
         let dataSource = PagerContentViewControllers(contentViewControllers: [vc1, vc2, vc3])
         vc.dataSource = dataSource

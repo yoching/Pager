@@ -81,7 +81,7 @@ private extension PagerViewController {
 
     func configureIndicatorBar(numberOfItems: Int) {
         let indicatorBar = UIView()
-        indicatorBar.backgroundColor = .orange
+        indicatorBar.backgroundColor = UIColor(rgb: 0xAAAAAA)
 
         // add bar to container view
         upperTabIndicatorBarContainerView.addSubview(indicatorBar)
